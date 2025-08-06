@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+header {
+  background: #005fa3;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header h1 {
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  background: #e3f2fd;
+  padding: 4rem 2rem;
+}
+.hero h2 {
+  font-size: 2.5rem;
+}
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #005fa3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.program-list {
+  list-style: none;
+  padding-left: 0;
+}
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.portfolio-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.logo {
+  height: 80px;
+  margin-right: 1rem;
+  float: left;
+}
